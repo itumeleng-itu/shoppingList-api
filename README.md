@@ -2,6 +2,46 @@
 
 This is a simple API for managing a shopping list.
 
+## Project Description
+This project provides a RESTful API for managing a shopping list. Users can perform CRUD (Create, Read, Update, Delete) operations on product items in the list.
+
+## Technologies Used
+- Node.js
+- TypeScript
+- Express.js
+- Nodemon (for development)
+
+## Setup and Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd shoppingList-api
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## How to Run
+
+### Development Mode
+To run the API in development mode with live reloading:
+```bash
+npm run dev
+```
+
+### Production Mode
+To build the TypeScript files and run the compiled JavaScript:
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Start the server:
+   ```bash
+   npm start
+   ```
+
 ## API Endpoints
 
 ### Products
